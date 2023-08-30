@@ -16,3 +16,6 @@ class OBS:
         if time >= 60:
             return True
         return False
+    
+if __name__ == "__main__":
+    obs = OBS()
